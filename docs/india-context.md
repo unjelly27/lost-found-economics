@@ -1,0 +1,7 @@
+# India Aviation Context
+
+The optional dashboard panel uses the Directorate General of Civil Aviation’s September 2026 domestic traffic report. The printed monthly summary on PDF page 4 records **2,466 complaints** and approximately **2.09 complaints per 10,000 passengers** from scheduled domestic airlines. The comparison chart on page 5 gives baggage as **31.3%**, **29.5%**, and **22.7%** of reported passenger complaints in July, August, and September 2026, respectively. [Official DGCA traffic report, pages 4–5](https://public-prd-dgca.s3.ap-south-1.amazonaws.com/InventoryList/dataReports/aviationDataStatistics/airTransport/domestic/airTraffic/traffic%20Data%20Sep%2026.pdf#page=4)
+
+The project includes the original PDF, its SHA-256 and source URL, and a manually verified three-row CSV in `data/context/india/`. Complaint counts and passenger-normalized rates for July and August are blank in this extract because only the comparison chart was transcribed for those months.
+
+The denominator for the baggage share is passenger complaints. Complaint behavior, recording, and the mix of complaint categories can affect the metric. A decrease in complaint share alone gives insufficient evidence to quantify a change in baggage incidents. U.S. DOT's mishandling rate uses checked bags enplaned. The India panel has its own fixed reporting period and does not feed the U.S. marts or financial model.

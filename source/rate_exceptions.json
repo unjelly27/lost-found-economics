@@ -1,0 +1,13 @@
+[
+  {
+    "period": "2025-04",
+    "sha256": "00cda0717b6f728966dcdfd8609b3aa23ec18cad87d73d546821ce08f6f617ac",
+    "source_page": 36,
+    "source_rank": 6,
+    "airline_name": "Hawaiian Airlines",
+    "bags_enplaned": 520315,
+    "bags_mishandled": 1951,
+    "published_rate_per_100": "0.38",
+    "reason": "Visually verified against the official DOT PDF. Both bag counts match the page and reconcile to the published monthly totals. The 0.0050348347 gap exceeds the 0.005 rounding tolerance."
+  }
+]

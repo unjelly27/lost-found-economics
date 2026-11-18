@@ -1,0 +1,9 @@
+{
+  "publisher": "Directorate General of Civil Aviation, India",
+  "title": "Traffic Data September 2026",
+  "url": "https://public-prd-dgca.s3.ap-south-1.amazonaws.com/InventoryList/dataReports/aviationDataStatistics/airTransport/domestic/airTraffic/traffic%20Data%20Sep%2026.pdf",
+  "file": "dgca-traffic-september-2026.pdf",
+  "sha256": "1b1e12558aceb533a0047682d9643dfccc044126b4dbb3e1329abdb68916a366",
+  "method": "Checked the printed summary on PDF page 4 and visually transcribed the three published baggage-complaint shares from page 5.",
+  "population": "Complaints reported by scheduled domestic airlines in India"
+}
