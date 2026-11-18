@@ -1,0 +1,68 @@
+{
+  "run_id": "818be96b6656428f8b107e05d6a07ece",
+  "status": "complete_with_warnings",
+  "source_reports_acquired": 16,
+  "source_reports_loaded": 16,
+  "distinct_airlines": 14,
+  "airline_month_records": 213,
+  "target_months": 16,
+  "covered_months": 16,
+  "missing_months": [],
+  "quarantined_rows": 0,
+  "failed_validations": 1,
+  "blocking_errors": 0,
+  "documented_exceptions": 1,
+  "other_warnings": 0,
+  "checks": {
+    "official_pdf": {
+      "pass": 16
+    },
+    "monthly_operating_table": {
+      "pass": 16
+    },
+    "required_fields_and_types": {
+      "pass": 213
+    },
+    "carrier_name": {
+      "pass": 213
+    },
+    "numeric_ranges": {
+      "pass": 213
+    },
+    "published_rate_rounding": {
+      "pass": 212,
+      "documented_exception": 1
+    },
+    "unique_airline_month": {
+      "pass": 213
+    },
+    "table_totals": {
+      "pass": 16
+    },
+    "target_month_coverage": {
+      "pass": 16
+    },
+    "export_consistency": {
+      "pass": 1
+    },
+    "sqlite_integrity": {
+      "pass": 1
+    }
+  },
+  "issues": [
+    {
+      "check": "published_rate_rounding",
+      "severity": "documented_exception",
+      "period": "2025-04",
+      "message": "Visually verified against the official DOT PDF. Both bag counts match the page and reconcile to the published monthly totals. The 0.0050348347 gap exceeds the 0.005 rounding tolerance.",
+      "computed_rate_per_100": 0.37496516533253893,
+      "sha256": "00cda0717b6f728966dcdfd8609b3aa23ec18cad87d73d546821ce08f6f617ac",
+      "source_page": 36,
+      "source_rank": 6,
+      "airline_name": "Hawaiian Airlines",
+      "bags_enplaned": 520315,
+      "bags_mishandled": 1951,
+      "published_rate_per_100": "0.38"
+    }
+  ]
+}
